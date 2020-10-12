@@ -8,6 +8,18 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <form action="process">
+            <br/>
+            <input type="text" name="nsername" value="" />
+            <input type="submit" value="group1" value="A" />
+            <input type="submit" value="group1" value="B" />
+            <input type="submit" value="group1" value="C" />
+            <br/>
+            <input type="checkbox" name="group2" value="ON" />
+            <input type="checkbox" name="group2" value="ON" />
+            <input type="checkbox" name="group2" value="ON" />
+            <input type="submit" value="submit" />
+        </form>
         <!--
         lab1: 輸入不同的內容，觀察網址列的變化
         lab2: method 改成 POST，會發生什麼事，怎麼修改到正常

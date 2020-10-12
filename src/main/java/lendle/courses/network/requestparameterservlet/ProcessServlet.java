@@ -48,6 +48,10 @@ public class ProcessServlet extends HttpServlet {
                 out.print(name+"=");
                 out.print(request.getParameter(name)+"<br/>");
             }
+            String [] group1Values=request.getParameterValues("group2");
+            for(int i=0; i<group1Values.length; i++){
+                out.println(""+i+"="+group1Values[i]+"<br/>");
+            }
             out.println("</body>");
             out.println("</html>");
         } finally {
